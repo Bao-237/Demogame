@@ -235,6 +235,7 @@ GameObject:
   - component: {fileID: 1342155161}
   - component: {fileID: 1342155160}
   - component: {fileID: 1342155162}
+  - component: {fileID: 1342155163}
   m_Layer: 0
   m_Name: Short-Lazer-Ship
   m_TagString: Untagged
@@ -310,8 +311,8 @@ Transform:
   m_GameObject: {fileID: 1342155159}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.01, y: -1.57, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalPosition: {x: 0.01, y: -1.34, z: 0}
+  m_LocalScale: {x: 1.4406, y: 1.6248, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1718894089}
@@ -329,6 +330,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c8a2dc64c09fd04d84ca8f18a1f14be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+--- !u!114 &1342155163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342155159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca9c9f23f5325c5438fccc92c58968e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerShooting1
+  bulletPrefabs: {fileID: 5917303228685375435, guid: 889a923db4471b946a75044b86488672,
+    type: 3}
+  shootingInterval: 0.1
 --- !u!1 &1718894088
 GameObject:
   m_ObjectHideFlags: 0
