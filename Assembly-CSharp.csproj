@@ -78,6 +78,7 @@
     <Compile Include="Assets\Space Shooter Template FREE\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts-me\Bullet.cs" />
     <Compile Include="Assets\Space Shooter Template FREE\Scripts\PlayerShooting.cs" />
+    <Compile Include="Assets\Scripts-me\EnemyHealth.cs" />
     <Compile Include="Assets\Space Shooter Template FREE\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts-me\PlayerShooting1.cs" />
   </ItemGroup>
