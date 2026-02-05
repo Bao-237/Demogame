@@ -181,3 +181,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   explosionPrefab: {fileID: 1280240331523082, guid: 48a2ec6039c3cb942b4a2d6b2f1d9c7c,
     type: 3}
+  defaultHealthPoint: 3
